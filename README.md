@@ -21,12 +21,6 @@ npm start
 This runs the app on a port(default 3000)
 
 ```shell
-npm run format
-```
-
-This will format the files with prettier.
-
-```shell
 npm run lint
 ```
 
