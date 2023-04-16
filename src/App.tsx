@@ -1,7 +1,6 @@
-import React from "react";
+import React, { ReactNode } from 'react'
+const App = ({ children }: { children: ReactNode }) => {
+  return <>{children}</>
+}
 
-const App = () => {
-  return <div className="top-1"></div>;
-};
-
-export default App;
+export default App
